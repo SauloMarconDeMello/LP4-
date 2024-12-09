@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Automóveis</title>
+    <style>
+        body {
+            font-family: 'Verdana', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6f7ff;
+        }
+
+        header {
+            background: #338800;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.4em;
+            margin: 0;
+        }
+
+        header .subinfo {
+            margin-top: 8px;
+            font-size: 1.1em;
+        }
+
+        .main-container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 15px;
+            background: #ffffff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .car-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .car-card {
+            flex: 1 1 calc(48%);
+            display: flex;
+            gap: 10px;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .car-card img {
+            width: 150px;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .car-details h2 {
+            margin: 0 0 8px 0;
+            font-size: 1.5em;
+            color: #338800;
+        }
+
+        .car-details p {
+            margin: 5px 0;
+        }
+
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Catálogo de Automóveis</h1>
+        
+        <p class="subinfo">VENDEDORES: Saulo Marcon e Mario Gomes !</p>
+    </header>
+
+    <div class="main-container">
+        <h2>Explore nossa seleção:</h2>
+        <div class="car-section">
+            <!-- Carro 1 -->
+            <div class="car-card">
+                <img src="IMAGEM/IMAGEM1.jpg" alt="Monza">
+                <div class="car-details">
+                    <h2>Monza</h2>
+                    <p><strong>Fabricante:</strong> Chevrolet</p>
+                    <p><strong>Ano:</strong> 1991</p>
+                    <p><strong>Preço:</strong> R$ 15.000</p>
+                </div>
+            </div>
+
+            <!-- Carro 2 -->
+            <div class="car-card">
+                <img src="IMAGEM/IMAGEM2.jpg" alt="Hyundai HB20">
+                <div class="car-details">
+                    <h2>Hyundai HB20</h2>
+                    <p><strong>Fabricante:</strong> Hyundai</p>
+                    <p><strong>Ano:</strong> 2022</p>
+                    <p><strong>Preço:</strong> R$ 85.000</p>
+                </div>
+            </div>
+
+            <!-- Carro 3 -->
+            <div class="car-card">
+                <img src="IMAGEM/IMAGEM3.jpg" alt="Chevrolet Cruze">
+                <div class="car-details">
+                    <h2>Chevrolet Cruze</h2>
+                    <p><strong>Fabricante:</strong> Chevrolet</p>
+                    <p><strong>Ano:</strong> 2021</p>
+                    <p><strong>Preço:</strong> R$ 140.000</p>
+                </div>
+            </div>
+
+            <!-- Carro 4 -->
+            <div class="car-card">
+                <img src="IMAGEM/IMAGEM4.jpg" alt="Toyota Corolla">
+                <div class="car-details">
+                    <h2>Toyota Corolla</h2>
+                    <p><strong>Fabricante:</strong> Toyota</p>
+                    <p><strong>Ano:</strong> 2022</p>
+                    <p><strong>Preço:</strong> R$ 160.000</p>
+                </div>
+            </div>
+
+            <!-- Carro 5 -->
+            <div class="car-card">
+                <img src="IMAGEM/IMAGEM5.jpg" alt="Honda Civic">
+                <div class="car-details">
+                    <h2>Honda Civic</h2>
+                    <p><strong>Fabricante:</strong> Honda</p>
+                    <p><strong>Ano:</strong> 2020</p>
+                    <p><strong>Preço:</strong> R$ 120.000</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>© 2024 - Catálogo de Automóveis</footer>
+</body>
+
+</html>
